@@ -5,6 +5,12 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+
+}
+.displayAndButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .display {
     margin-top: 25px;
@@ -20,3 +26,79 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+
+.numberbuttons{
+       display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 70%;
+    justify-content: space-between;
+  }
+.numberbuttons button{
+    background-color: navy;
+    color: white;
+    width: 25%;
+    height: 26%;
+    border-radius: 180px;
+    font-size: 1.7rem;
+    margin: .4rem .5rem;
+
+}
+
+.specialButtons{
+    height: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.specialButtons button{
+    background-color: dodgerblue;
+    color: white;
+    width: 23%;
+    height: 54%;
+    border-radius: 180px;
+    font-size: 1.7rem;
+    margin: .3rem .5rem;
+}
+
+.operatorButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.operatorButtons button{
+    background-color: lightskyblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 180px;
+    width:70%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin: .9rem .5rem;
+}
+
+.App{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+    margin: 2rem 0rem;
+}
+
+.leftside{
+    width: 76%;
+}
+
+.rightside{
+    width: 24%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+}
